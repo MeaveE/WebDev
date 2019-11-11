@@ -1,0 +1,54 @@
+<HTML>
+<script type="text/javascript" src="Assets/Scripts/Github.js"></script>
+<link rel="stylesheet" href="Assets/Css/Github.css">
+<body>
+	<div id= "searchdiv">
+		<input type="text" id="search" placeholder="Username">
+		<button id="searchBtn" onclick="getUsers()">Search</button>
+	</div>
+<div id="userProfileDiv">
+	<h2>User Profile</h2>
+	<div id="userProfile">
+		<div id="picture"> <img id = "userimg" src ="Assets/Images/thumbnail.png"></div>
+
+		<div class="userInfo" ><h3 id="userInfo">Name:</h3>  				<div id = "NameDiv"> 			</div> </div>
+		<div class="userInfo" ><h3 id="userInfo">Username:</h3> 			<div id = "Username">   		</div></div>
+		<div class="userInfo" ><h3 id="userInfo">Email:</h3> 				<div id = "Email">	 			</div></div>
+		<div class="userInfo" ><h3 id="userInfo">Location:</h3> 			<div id = "Location">			</div></div>
+		<div class="userInfo" ><h3 id="userInfo">Number of Gits:</h3> 	<div id = "NumberofGits">		</div></div>
+			
+		
+
+	</div>
+</div>
+	<div id="userReposDiv">
+		<h2>User Repos</h2>
+		<ul id="userRepos">
+			 <li class="userRepoData">
+                    <h3 id="repoName" >Name</h3> <div id="repoName-1"> </div>
+                    <h3>Description</h3> <div id="repoDesc-1"></div>
+              </li>
+              <li class="userRepoData">
+                    <h3 id="repoName">Name</h3> <div id="repoName-2"> </div>
+                    <h3>Description</h3><div id="repoDesc-2"></div>
+              </li>
+              <li class="userRepoData">
+                    <h3 id="repoName">Name</h3> <div id="repoName-3"> </div>
+                    <h3>Description</h3><div id="repoDesc-3"></div>
+              </li>
+              <li class="userRepoData">
+                    <h3 id="repoName">Name</h3> <div id="repoName-4"> </div>
+                    <h3>Description</h3><div id="repoDesc-4"></div>
+
+              </li>
+              <li class="userRepoData">
+                    <h3 id="repoName">Name</h3> <div id="repoName-5"> </div>
+                    <h3>Description</h3><div id="repoDesc-5"></div>
+
+              </li>
+			
+		</ul>
+	</div>
+
+</body>
+</HTML>

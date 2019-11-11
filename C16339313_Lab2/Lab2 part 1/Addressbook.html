@@ -1,0 +1,31 @@
+<HTML>
+<script type="text/javascript" src="Scripts/Addressbook.js"></script>
+<link rel="stylesheet" href="Css/Addressbook.css">
+<body>
+	<H1>Contacts</H1>
+<div id="insertForm">
+	<form id="contactForm" action="#">
+		<input type="text" id="contactName" placeholder="Name">
+		<input type="numbers" id="mobileNumb" placeholder="Mobile">
+		<input type="email" id="contactEmail" placeholder="Email">
+		<button type="reset" onclick="validate()" id="savebtn">Save</button>
+	</form>
+</div>
+<div id = "errorbox">
+</div>
+
+<div id="searchdiv">
+	Search by Mobile No <input type="numbers" id="search" onkeyup="search()" placeholder="Search Mobiles"><br><br>
+</div>
+   
+<table id="contacts">
+<tr>
+	 <th><button id ="sort" onclick="sortSwap()">Name</button></th>
+     <th>Mobile</th>
+     <th>Actions</th>
+ </tr>
+   
+</table>
+
+</body>
+</HTML>

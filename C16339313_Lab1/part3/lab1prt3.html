@@ -1,0 +1,36 @@
+<html>
+
+<link rel="stylesheet" href="lab1prt3.css">
+
+<body>
+	<div id="head-1">
+		<H1>Note Taker</H1>
+	</div>
+
+	<button onclick="display()" id="addbtn">Hide</button>
+
+	<div class="col" id="col">
+
+		<div class="row-1" id="row-1">
+			<form>
+				<textarea id="notetext" rows="10" cols="50" required="true"></textarea> 
+				<select name="color" id="color">
+      			<option value="white">Select color</option>
+      			<option value="lightcoral" >Red</option>
+      			<option value="lightskyblue" >Blue</option>
+      			<option value="blueviolet" >Purple</option>
+      			<option value="gold" >Yellow</option>
+      			<option value="lightgreen" >Green</option>
+    			</select>
+				<button onclick="addnote()" id="savebtn">Save</button>
+			</form>
+		</div>
+
+		<div id="note">
+		</div>
+
+	</div>
+<script type="text/javascript" src="lab1prt3.js"></script>
+</body>
+</html>
+
